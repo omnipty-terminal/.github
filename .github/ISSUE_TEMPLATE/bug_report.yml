@@ -39,6 +39,11 @@ body:
     attributes:
       label: Shell
       placeholder: "zsh 5.9 / bash 5.2 / fish 3.7"
+  - type: input
+    id: crash_report
+    attributes:
+      label: Crash report ID
+      description: Filled in for you when you open this from **Help → Report an Issue** after a crash. Leave it blank otherwise.
   - type: textarea
     id: config
     attributes:
